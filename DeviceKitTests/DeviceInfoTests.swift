@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import DeviceInfo
+@testable import TMDeviceKit
 
 class DeviceInfoTests: XCTestCase {
     

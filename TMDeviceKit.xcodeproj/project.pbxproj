@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52C224A51BFF73AB00361BE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C224A41BFF73AB00361BE5 /* AppDelegate.swift */; };
-		52C224A71BFF73AB00361BE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C224A61BFF73AB00361BE5 /* ViewController.swift */; };
-		52C224AA1BFF73AB00361BE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C224A81BFF73AB00361BE5 /* Main.storyboard */; };
-		52C224AC1BFF73AB00361BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C224AB1BFF73AB00361BE5 /* Assets.xcassets */; };
-		52C224AF1BFF73AB00361BE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C224AD1BFF73AB00361BE5 /* LaunchScreen.storyboard */; };
-		52C224BA1BFF73AB00361BE5 /* DeviceInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C224B91BFF73AB00361BE5 /* DeviceInfoTests.swift */; };
-		52C224C51BFF742600361BE5 /* UIDeviceExtraInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C224C41BFF742600361BE5 /* UIDeviceExtraInfo.swift */; };
+		52777AB81C07C8F700A8F421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52777AAC1C07C8F700A8F421 /* AppDelegate.swift */; };
+		52777AB91C07C8F700A8F421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52777AAD1C07C8F700A8F421 /* Assets.xcassets */; };
+		52777ABA1C07C8F700A8F421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52777AAE1C07C8F700A8F421 /* LaunchScreen.storyboard */; };
+		52777ABB1C07C8F700A8F421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52777AB01C07C8F700A8F421 /* Main.storyboard */; };
+		52777ABC1C07C8F700A8F421 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52777AB21C07C8F700A8F421 /* Info.plist */; };
+		52777ABD1C07C8F700A8F421 /* UIDeviceExtraInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52777AB31C07C8F700A8F421 /* UIDeviceExtraInfo.swift */; };
+		52777ABE1C07C8F700A8F421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52777AB41C07C8F700A8F421 /* ViewController.swift */; };
+		52777AC01C07C8F700A8F421 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52777AB71C07C8F700A8F421 /* Info.plist */; };
+		52777AC11C07C93800A8F421 /* DeviceInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52777AB61C07C8F700A8F421 /* DeviceInfoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +29,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52777AAC1C07C8F700A8F421 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52777AAD1C07C8F700A8F421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52777AAF1C07C8F700A8F421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52777AB11C07C8F700A8F421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52777AB21C07C8F700A8F421 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52777AB31C07C8F700A8F421 /* UIDeviceExtraInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtraInfo.swift; sourceTree = "<group>"; };
+		52777AB41C07C8F700A8F421 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52777AB61C07C8F700A8F421 /* DeviceInfoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoTests.swift; sourceTree = "<group>"; };
+		52777AB71C07C8F700A8F421 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C224A11BFF73AA00361BE5 /* TMDeviceKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDeviceKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C224A41BFF73AB00361BE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52C224A61BFF73AB00361BE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52C224A91BFF73AB00361BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		52C224AB1BFF73AB00361BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52C224AE1BFF73AB00361BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		52C224B01BFF73AB00361BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C224B51BFF73AB00361BE5 /* TMDeviceKit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDeviceKit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52C224B91BFF73AB00361BE5 /* DeviceInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoTests.swift; sourceTree = "<group>"; };
-		52C224BB1BFF73AB00361BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52C224C41BFF742600361BE5 /* UIDeviceExtraInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtraInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52777AAB1C07C8F700A8F421 /* DeviceKit */ = {
+			isa = PBXGroup;
+			children = (
+				52777AAC1C07C8F700A8F421 /* AppDelegate.swift */,
+				52777AAD1C07C8F700A8F421 /* Assets.xcassets */,
+				52777AAE1C07C8F700A8F421 /* LaunchScreen.storyboard */,
+				52777AB01C07C8F700A8F421 /* Main.storyboard */,
+				52777AB21C07C8F700A8F421 /* Info.plist */,
+				52777AB31C07C8F700A8F421 /* UIDeviceExtraInfo.swift */,
+				52777AB41C07C8F700A8F421 /* ViewController.swift */,
+			);
+			path = DeviceKit;
+			sourceTree = "<group>";
+		};
+		52777AB51C07C8F700A8F421 /* DeviceKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				52777AB61C07C8F700A8F421 /* DeviceInfoTests.swift */,
+				52777AB71C07C8F700A8F421 /* Info.plist */,
+			);
+			path = DeviceKitTests;
+			sourceTree = "<group>";
+		};
 		52C224981BFF73AA00361BE5 = {
 			isa = PBXGroup;
 			children = (
-				52C224A31BFF73AB00361BE5 /* DeviceKit */,
-				52C224B81BFF73AB00361BE5 /* DeviceKitTests */,
+				52777AAB1C07C8F700A8F421 /* DeviceKit */,
+				52777AB51C07C8F700A8F421 /* DeviceKitTests */,
 				52C224A21BFF73AA00361BE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,31 +99,6 @@
 				52C224B51BFF73AB00361BE5 /* TMDeviceKit.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		52C224A31BFF73AB00361BE5 /* DeviceKit */ = {
-			isa = PBXGroup;
-			children = (
-				52C224A41BFF73AB00361BE5 /* AppDelegate.swift */,
-				52C224A61BFF73AB00361BE5 /* ViewController.swift */,
-				52C224A81BFF73AB00361BE5 /* Main.storyboard */,
-				52C224AB1BFF73AB00361BE5 /* Assets.xcassets */,
-				52C224AD1BFF73AB00361BE5 /* LaunchScreen.storyboard */,
-				52C224B01BFF73AB00361BE5 /* Info.plist */,
-				52C224C41BFF742600361BE5 /* UIDeviceExtraInfo.swift */,
-			);
-			name = DeviceKit;
-			path = DeviceInfo;
-			sourceTree = "<group>";
-		};
-		52C224B81BFF73AB00361BE5 /* DeviceKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				52C224B91BFF73AB00361BE5 /* DeviceInfoTests.swift */,
-				52C224BB1BFF73AB00361BE5 /* Info.plist */,
-			);
-			name = DeviceKitTests;
-			path = DeviceInfoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +182,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C224AF1BFF73AB00361BE5 /* LaunchScreen.storyboard in Resources */,
-				52C224AC1BFF73AB00361BE5 /* Assets.xcassets in Resources */,
-				52C224AA1BFF73AB00361BE5 /* Main.storyboard in Resources */,
+				52777AC01C07C8F700A8F421 /* Info.plist in Resources */,
+				52777AB91C07C8F700A8F421 /* Assets.xcassets in Resources */,
+				52777ABB1C07C8F700A8F421 /* Main.storyboard in Resources */,
+				52777ABA1C07C8F700A8F421 /* LaunchScreen.storyboard in Resources */,
+				52777ABC1C07C8F700A8F421 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,9 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C224A71BFF73AB00361BE5 /* ViewController.swift in Sources */,
-				52C224C51BFF742600361BE5 /* UIDeviceExtraInfo.swift in Sources */,
-				52C224A51BFF73AB00361BE5 /* AppDelegate.swift in Sources */,
+				52777ABE1C07C8F700A8F421 /* ViewController.swift in Sources */,
+				52777AB81C07C8F700A8F421 /* AppDelegate.swift in Sources */,
+				52777ABD1C07C8F700A8F421 /* UIDeviceExtraInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C224BA1BFF73AB00361BE5 /* DeviceInfoTests.swift in Sources */,
+				52777AC11C07C93800A8F421 /* DeviceInfoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,20 +229,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		52C224A81BFF73AB00361BE5 /* Main.storyboard */ = {
+		52777AAE1C07C8F700A8F421 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				52C224A91BFF73AB00361BE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		52C224AD1BFF73AB00361BE5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52C224AE1BFF73AB00361BE5 /* Base */,
+				52777AAF1C07C8F700A8F421 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		52777AB01C07C8F700A8F421 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52777AB11C07C8F700A8F421 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -334,11 +336,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "";
 				DEFINES_MODULE = YES;
-				INFOPLIST_FILE = DeviceInfo/Info.plist;
+				INFOPLIST_FILE = DeviceKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio..DeviceInfo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio.DeviceKit;
 				PRODUCT_NAME = TMDeviceKit;
 			};
 			name = Debug;
@@ -348,11 +351,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = NO;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "";
 				DEFINES_MODULE = YES;
-				INFOPLIST_FILE = DeviceInfo/Info.plist;
+				INFOPLIST_FILE = DeviceKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio..DeviceInfo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio.DeviceKit;
 				PRODUCT_NAME = TMDeviceKit;
 			};
 			name = Release;
@@ -361,9 +365,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DeviceInfoTests/Info.plist;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "";
+				INFOPLIST_FILE = DeviceKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio..DeviceInfoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio.DeviceKitTests;
 				PRODUCT_NAME = TMDeviceKit;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDeviceKit.app/TMDeviceKit";
 			};
@@ -373,9 +378,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DeviceInfoTests/Info.plist;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "";
+				INFOPLIST_FILE = DeviceKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio..DeviceInfoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio.DeviceKitTests;
 				PRODUCT_NAME = TMDeviceKit;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDeviceKit.app/TMDeviceKit";
 			};
