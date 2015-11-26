@@ -27,14 +27,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52C224A11BFF73AA00361BE5 /* TMDeviceInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDeviceInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C224A11BFF73AA00361BE5 /* TMDeviceKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDeviceKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C224A41BFF73AB00361BE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C224A61BFF73AB00361BE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52C224A91BFF73AB00361BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52C224AB1BFF73AB00361BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C224AE1BFF73AB00361BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C224B01BFF73AB00361BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52C224B51BFF73AB00361BE5 /* TMDeviceInfo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDeviceInfo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C224B51BFF73AB00361BE5 /* TMDeviceKit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDeviceKit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C224B91BFF73AB00361BE5 /* DeviceInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoTests.swift; sourceTree = "<group>"; };
 		52C224BB1BFF73AB00361BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C224C41BFF742600361BE5 /* UIDeviceExtraInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtraInfo.swift; sourceTree = "<group>"; };
@@ -61,8 +61,8 @@
 		52C224981BFF73AA00361BE5 = {
 			isa = PBXGroup;
 			children = (
-				52C224A31BFF73AB00361BE5 /* DeviceInfo */,
-				52C224B81BFF73AB00361BE5 /* DeviceInfoTests */,
+				52C224A31BFF73AB00361BE5 /* DeviceKit */,
+				52C224B81BFF73AB00361BE5 /* DeviceKitTests */,
 				52C224A21BFF73AA00361BE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 		52C224A21BFF73AA00361BE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52C224A11BFF73AA00361BE5 /* TMDeviceInfo.app */,
-				52C224B51BFF73AB00361BE5 /* TMDeviceInfo.xctest */,
+				52C224A11BFF73AA00361BE5 /* TMDeviceKit.app */,
+				52C224B51BFF73AB00361BE5 /* TMDeviceKit.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52C224A31BFF73AB00361BE5 /* DeviceInfo */ = {
+		52C224A31BFF73AB00361BE5 /* DeviceKit */ = {
 			isa = PBXGroup;
 			children = (
 				52C224A41BFF73AB00361BE5 /* AppDelegate.swift */,
@@ -87,24 +87,26 @@
 				52C224B01BFF73AB00361BE5 /* Info.plist */,
 				52C224C41BFF742600361BE5 /* UIDeviceExtraInfo.swift */,
 			);
+			name = DeviceKit;
 			path = DeviceInfo;
 			sourceTree = "<group>";
 		};
-		52C224B81BFF73AB00361BE5 /* DeviceInfoTests */ = {
+		52C224B81BFF73AB00361BE5 /* DeviceKitTests */ = {
 			isa = PBXGroup;
 			children = (
 				52C224B91BFF73AB00361BE5 /* DeviceInfoTests.swift */,
 				52C224BB1BFF73AB00361BE5 /* Info.plist */,
 			);
+			name = DeviceKitTests;
 			path = DeviceInfoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52C224A01BFF73AA00361BE5 /* TMDeviceInfo */ = {
+		52C224A01BFF73AA00361BE5 /* TMDeviceKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52C224BE1BFF73AB00361BE5 /* Build configuration list for PBXNativeTarget "TMDeviceInfo" */;
+			buildConfigurationList = 52C224BE1BFF73AB00361BE5 /* Build configuration list for PBXNativeTarget "TMDeviceKit" */;
 			buildPhases = (
 				52C2249D1BFF73AA00361BE5 /* Sources */,
 				52C2249E1BFF73AA00361BE5 /* Frameworks */,
@@ -114,14 +116,14 @@
 			);
 			dependencies = (
 			);
-			name = TMDeviceInfo;
+			name = TMDeviceKit;
 			productName = DeviceInfo;
-			productReference = 52C224A11BFF73AA00361BE5 /* TMDeviceInfo.app */;
+			productReference = 52C224A11BFF73AA00361BE5 /* TMDeviceKit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52C224B41BFF73AB00361BE5 /* TMDeviceInfoTests */ = {
+		52C224B41BFF73AB00361BE5 /* TMDeviceKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52C224C11BFF73AB00361BE5 /* Build configuration list for PBXNativeTarget "TMDeviceInfoTests" */;
+			buildConfigurationList = 52C224C11BFF73AB00361BE5 /* Build configuration list for PBXNativeTarget "TMDeviceKitTests" */;
 			buildPhases = (
 				52C224B11BFF73AB00361BE5 /* Sources */,
 				52C224B21BFF73AB00361BE5 /* Frameworks */,
@@ -132,9 +134,9 @@
 			dependencies = (
 				52C224B71BFF73AB00361BE5 /* PBXTargetDependency */,
 			);
-			name = TMDeviceInfoTests;
+			name = TMDeviceKitTests;
 			productName = DeviceInfoTests;
-			productReference = 52C224B51BFF73AB00361BE5 /* TMDeviceInfo.xctest */;
+			productReference = 52C224B51BFF73AB00361BE5 /* TMDeviceKit.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52C2249C1BFF73AA00361BE5 /* Build configuration list for PBXProject "TMDeviceInfo" */;
+			buildConfigurationList = 52C2249C1BFF73AA00361BE5 /* Build configuration list for PBXProject "TMDeviceKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -169,8 +171,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52C224A01BFF73AA00361BE5 /* TMDeviceInfo */,
-				52C224B41BFF73AB00361BE5 /* TMDeviceInfoTests */,
+				52C224A01BFF73AA00361BE5 /* TMDeviceKit */,
+				52C224B41BFF73AB00361BE5 /* TMDeviceKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,7 +221,7 @@
 /* Begin PBXTargetDependency section */
 		52C224B71BFF73AB00361BE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52C224A01BFF73AA00361BE5 /* TMDeviceInfo */;
+			target = 52C224A01BFF73AA00361BE5 /* TMDeviceKit */;
 			targetProxy = 52C224B61BFF73AB00361BE5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -337,7 +339,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio..DeviceInfo;
-				PRODUCT_NAME = TMDeviceInfo;
+				PRODUCT_NAME = TMDeviceKit;
 			};
 			name = Debug;
 		};
@@ -351,7 +353,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio..DeviceInfo;
-				PRODUCT_NAME = TMDeviceInfo;
+				PRODUCT_NAME = TMDeviceKit;
 			};
 			name = Release;
 		};
@@ -362,8 +364,8 @@
 				INFOPLIST_FILE = DeviceInfoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio..DeviceInfoTests;
-				PRODUCT_NAME = TMDeviceInfo;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDeviceInfo.app/TMDeviceInfo";
+				PRODUCT_NAME = TMDeviceKit;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDeviceKit.app/TMDeviceKit";
 			};
 			name = Debug;
 		};
@@ -374,15 +376,15 @@
 				INFOPLIST_FILE = DeviceInfoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanaimostudio..DeviceInfoTests;
-				PRODUCT_NAME = TMDeviceInfo;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDeviceInfo.app/TMDeviceInfo";
+				PRODUCT_NAME = TMDeviceKit;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDeviceKit.app/TMDeviceKit";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52C2249C1BFF73AA00361BE5 /* Build configuration list for PBXProject "TMDeviceInfo" */ = {
+		52C2249C1BFF73AA00361BE5 /* Build configuration list for PBXProject "TMDeviceKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52C224BC1BFF73AB00361BE5 /* Debug */,
@@ -391,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52C224BE1BFF73AB00361BE5 /* Build configuration list for PBXNativeTarget "TMDeviceInfo" */ = {
+		52C224BE1BFF73AB00361BE5 /* Build configuration list for PBXNativeTarget "TMDeviceKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52C224BF1BFF73AB00361BE5 /* Debug */,
@@ -400,7 +402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52C224C11BFF73AB00361BE5 /* Build configuration list for PBXNativeTarget "TMDeviceInfoTests" */ = {
+		52C224C11BFF73AB00361BE5 /* Build configuration list for PBXNativeTarget "TMDeviceKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52C224C21BFF73AB00361BE5 /* Debug */,
