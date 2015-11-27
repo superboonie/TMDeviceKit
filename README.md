@@ -41,8 +41,11 @@ struct NSOperatingSystemVersion {
 }
 
 // Check if OS is at least 8.1.1
+
+// ...using version string
 extraInfo.isOperatingSystemAtLeastVersion("8.1.1")
-or
+
+// ...using NSOperatingSystem instance
 extraInfo.isOperatingSystemAtLeastVersion(NSOperatingSystem(majorVersion: 8, minorVersion: 1, patchVersion: 1))
 
 ```
