@@ -1,8 +1,8 @@
 # TMDeviceKit
 
-TMDeviceKit provides a few classes for querying device spec and display spec through UIDeviceExtraInfo, DeviceSpec, DisplaySpec classes.
+TMDeviceKit provides a library of classes for querying device spec and display spec through UIDeviceExtraInfo, DeviceSpec, DisplaySpec classes and more.
 
-This library simplifies the task of getting information not only on the running device, but any device in the iOS family.
+This library simplifies the task of getting information for not only the running device, but any device in the iOS family for your general purpose use.
 
 TMDeviceKit supports all modern iOS devices (including Apple Watch and Apple TV) that runs iOS 7+ and soon Mac OS.
 
@@ -69,7 +69,7 @@ Device spec contains the family (iPhone, iPad, AppleTV, etc.), type (iPhone 5/5c
 extraInfo.spec
 
 // Device type
-extraInfo.spec.type // returns DeviceType, e.g. DeviceType.iPhone5
+extraInfo.spec.type    // returns DeviceType, e.g. DeviceType.iPhone5
 extraInfo.spec.subtype // returns DeviceSubtype, e.g. option set: [DeviceSubType.GSM, DeviceSubType.WiFi]
 extraInfo.spec.display // returns DisplaySpec
 
@@ -95,7 +95,7 @@ extraInfo.spec.display.pixelsPerInch
 
 // or alternatively, query the display spec of any device type like this:
 let displaySpec = DisplaySpec(deviceType: .iPhone6)  // get the point resolution of iPhone 6
-displaySpec.physicalPixelResolution // e.g. 750x1334 for DeviceType.iPhone6
+displaySpec.physicalPixelResolution                  // e.g. 750x1334 for DeviceType.iPhone6
 
 
 ```
